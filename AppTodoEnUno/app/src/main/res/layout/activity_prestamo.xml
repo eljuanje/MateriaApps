@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".Prestamo">
+
+
+
+    <EditText
+        android:id="@+id/etxMontoPrestamo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Monto del préstamo"
+        android:textSize="10pt"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/etxInteresAnual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Interés anual"
+        android:textSize="10pt"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etxPlazoMeses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese plazo en meses(6, 12, 18, 24)"
+        android:textSize="10pt"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnCalcularPrestamo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:textSize="10pt" />
+
+    <TextView
+        android:id="@+id/txvMontoPagoMen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monto de pagos mensual: "
+        android:textAlignment="center"
+        android:textSize="9pt" />
+
+
+    <TextView
+        android:id="@+id/txvInter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interés mensual: "
+        android:textAlignment="center"
+        android:textSize="9pt" />
+
+
+    <TextView
+        android:id="@+id/txvPagoTot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total de Pago: "
+        android:textAlignment="center"
+        android:textSize="9pt" />
+
+</LinearLayout>

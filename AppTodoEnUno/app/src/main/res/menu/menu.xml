@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--Si quieres poner comentario es así -->
+    <item android:id="@+id/itmViaje"
+          android:title="Calculadora de Viaje"/>
+
+    <item android:id="@+id/itmPrestamo"
+          android:title="Calculador de Prestamo"/>
+
+    <item android:id="@+id/itmJuego"
+          android:title="juego ;)"/>
+
+    <item android:id="@+id/itmSalir"
+          android:title="Salir"/>
+    <!-- Esto es para cada item -->
+
+</menu>
